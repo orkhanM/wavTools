@@ -1,0 +1,4 @@
+#!/bin/sh -f
+
+g++ -c timer.cpp -std=c++0x -pthread -lSDL
+g++ -o timer timer_demo.cpp timer.o -std=c++0x -pthread -lSDL
