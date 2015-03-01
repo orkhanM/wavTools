@@ -1,4 +1,0 @@
-#!/bin/bash
-
-
-eval g++ -c wavsound.cpp -lSDL -lopenal

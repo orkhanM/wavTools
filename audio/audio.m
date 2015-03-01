@@ -10,5 +10,5 @@ plot(tleft,left)
 xlabel('time(sec)');
 ylabel('relative signal strength')
 
-
+save -ascii wav.dat left;
 pause
